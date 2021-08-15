@@ -68,14 +68,15 @@
   }
   header .profile-image {
     margin-top: 50px;
+    margin-bottom: 50px;
     width: 150px;
     height: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
-    transition: all .5s;
+    border-radius: 75%;
+    border: 5px solid black;
+    transition: all 1s;
   }
   header .profile-image:hover {
-    transform: scale(1.75) rotate(33deg);
+    transform: scale(1.75) rotate(360deg);
   }
   .tag {
     opacity:70%;
@@ -236,13 +237,3 @@
     margin-right: 10px;
   }
   
-  .zoom > img:hover {
-  
-    width: 150%;
-    height: 150%;
-  }
-  .zoom
-  {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
